@@ -6,6 +6,10 @@ const dashboardRouting: Routes = [
   {
     path: '',
     component: DashboardComponent
+  },
+  {
+    path: 'assessor',
+    loadChildren: './assessor/assessor.module#AssessorModule'
   }
 ];
 

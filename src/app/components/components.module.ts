@@ -8,11 +8,13 @@ import { AlteraremailComponent } from './alteraremail/alteraremail.component';
 import { LogoutComponent } from './logout/logout.component';
 import { MenutopComponent } from './menutop/menutop.component';
 import { MenuleftComponent } from './menuleft/menuleft.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { MeusdadosComponent } from './meusdados/meusdados.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [HomeComponent, DetalheComponent, CarteiraComponent, AlterarsenhaComponent, AlteraremailComponent, LogoutComponent, MenutopComponent, MenuleftComponent]
+  declarations: [HomeComponent, DetalheComponent, CarteiraComponent, AlterarsenhaComponent, AlteraremailComponent, LogoutComponent, MenutopComponent, MenuleftComponent, InicioComponent, MeusdadosComponent]
 })
 export class ComponentsModule { }

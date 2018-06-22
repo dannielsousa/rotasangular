@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { InicioComponent } from '../../components/inicio/inicio.component';
+import { AssessorRoutingModule } from './assessor.routing.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AssessorRoutingModule
   ],
-  declarations: []
+  declarations: [
+    InicioComponent
+  ]
 })
 export class AssessorModule { }
